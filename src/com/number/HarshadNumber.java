@@ -9,7 +9,7 @@ public class HarshadNumber {
             return;
         }
         num = Math.abs(num);
-        
+
         int digitSum=digitSum(num);
         if(num%digitSum==0)
             System.out.println("Harshad Number "+num);
